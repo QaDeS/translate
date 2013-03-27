@@ -26,7 +26,7 @@ class Translate::File
       result
     }
   end
-  
+
   private
   def keys_to_yaml(keys)
     # Using ya2yaml, if available, for UTF8 support

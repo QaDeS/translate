@@ -191,4 +191,5 @@ class Translate::Keys
     Dir.glob(File.join(Translate::Storage.root_dir, "{app,config,lib}", "**","*.{rb,erb,rhtml}")) +
       Dir.glob(File.join(Translate::Storage.root_dir, "public", "javascripts", "**","*.js"))
   end
+  
 end
